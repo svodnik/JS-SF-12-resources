@@ -1,15 +1,14 @@
 # Student Resources
-## General Assembly San Francisco JavaScript Development 9 
+## General Assembly San Francisco JavaScript Development 10 
 
-- Tuesday, November 7 - Tuesday, January 23
-- Holidays: none
+- Monday, February 5 - Monday, April 16
 
 ---
 
 ## Useful links
 
-- [JSD9 class website](https://svodnik.github.io/jsd9)
-- [JSD9 homework repository](https://github.com/svodnik/JS-SF-9-homework)
+- [JSD10 class website](https://svodnik.github.io/jsd10)
+- [JSD10 homework repository](https://github.com/svodnik/JS-SF-10-homework)
 - [Exit ticket](https://goo.gl/forms/zkb7FsVNXHmdPecq2)
 - [Snack signup](https://codesnacks.youcanbook.me)
 
@@ -17,7 +16,7 @@
 
 ## Office Hours
 
-- Tuesday & Thursday, 5:00pm - 6:00pm
+- Monday & Wednesday, 5:00pm - 6:00pm
 - Find Sasha at the communal table to the left of the front desk.
 - Other office hours available by appointment with Sasha.
 
