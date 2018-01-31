@@ -9,7 +9,7 @@
 
 - [JSD10 class website](https://svodnik.github.io/jsd10)
 - [JSD10 homework repository](https://github.com/svodnik/JS-SF-10-homework)
-- [Exit ticket](https://goo.gl/forms/zkb7FsVNXHmdPecq2)
+- [Exit ticket](https://bit.ly/2JS10_exitticket)
 - [Snack signup](https://codesnacks.youcanbook.me)
 
 ---
