@@ -1,8 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Slack bot lab - testing
 
-## Testing your bot
-
-### Testing your bot locally on your computer
+## Testing your bot locally on your computer
 
 You can test the code for your bot locally on your computer, without pushing to Heroku:
 
@@ -12,7 +10,7 @@ This gives a few warning messages that you can safely ignore, as long as the BAS
 1. Press `control` + `C` when you're done, to return to the BASH prompt.
 
 
-### Testing your bot on the Heroku server
+## Testing your bot on the Heroku server
 
 You can push your code to Heroku, then test using the code on the Heroku server:
 
@@ -26,7 +24,7 @@ This gives output, then gives you a prompt such as `hubot>` that lets you intera
 1. Press `control` + `C` when you're done, to return to the BASH prompt.
 
 
-### Testing your bot on Slack
+## Testing your bot on Slack
 
 Once you've pushed your code to Heroku, you can test your bot in the class Slack organization:
 
