@@ -1,0 +1,9 @@
+.error {
+  background-color: #ffbdaa;
+}
+.error-text {
+  color: red;
+}
+.hidden {
+  display: none;
+}
