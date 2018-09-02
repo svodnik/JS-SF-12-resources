@@ -1,15 +1,15 @@
 # Student Resources
-## General Assembly San Francisco JavaScript Development 10 
+## General Assembly San Francisco JavaScript Development 12 
 
-- Monday, February 5 - Monday, April 16
+- Monday, September 10 - Monday, November 19
 
 ---
 
 ## Useful links
 
-- [JSD10 class website](https://svodnik.github.io/jsd10)
-- [JSD10 homework repository](https://github.com/svodnik/JS-SF-10-homework)
-- [Exit ticket](https://bit.ly/2JS10_exitticket)
+- [JSD12 class website](https://pages.git.generalassemb.ly/vodnik/JSD12/)
+- [JSD12 homework repository](https://git.generalassemb.ly/vodnik/JS-SF-12-homework)
+- [Exit ticket]()
 - [Snack signup](https://codesnacks.youcanbook.me)
 
 ---
@@ -28,7 +28,7 @@ Includes all scheduled classes and holidays, as well as snack signups.
 To use:
 1. Copy the following calendar link:
 
-    ```webcal://p53-calendars.icloud.com/published/2/GZgjKPzSw7Yb5AUMJaWp6OPY5qTDmzn7MaJUNfdskC7WiCQnygiJbCjeYuyV9qzQqLt9kJ4pvfNMjWV8nVNuoqw0mn6cafnq3uPlzkHxNqA```
+    ```webcal://p53-calendars.icloud.com/published/2/AAAAAAAAAAAAAAAAAAAAANRRoMBj18S-Qfbux81EwICDi4W1RyarAXI987_AYzephuwTWn-vgXKk_QWbpuGxft2Gy0-3sb5iooX7nYjEtFU```
 
 2. In your calendar program, select the option to subscribe to a calendar, then paste the copied link as the calendar to subscribe to.
     - Google Calendar: `Other Calendars` (sidebar) > `Add by URL`
@@ -42,7 +42,6 @@ To use:
   <dd>Starting files for codealongs and labs we do in class, as well as for homework assignments</dd>
   <dt><code>solution-code</code> folder</dt>
   <dd>Solution files for codealongs we do together in class, as well as for the previous week's homework when applicable</dd>
-
 </dl>
 
 ---
