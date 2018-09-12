@@ -9,8 +9,8 @@
 
 - [JSD12 class website](https://pages.git.generalassemb.ly/vodnik/JSD12/)
 - [JSD12 homework repository](https://git.generalassemb.ly/vodnik/JS-SF-12-homework)
-- [Exit ticket]()
-- [Snack signup](https://codesnacks.youcanbook.me)
+- [Exit ticket](https://bit.ly/JS12_exitticket)
+- [Snack signup](https://jsdsnacks.youcanbook.me)
 
 ---
 
@@ -28,7 +28,8 @@ Includes all scheduled classes and holidays, as well as snack signups.
 To use:
 1. Copy the following calendar link:
 
-    ```webcal://p53-calendars.icloud.com/published/2/AAAAAAAAAAAAAAAAAAAAANRRoMBj18S-Qfbux81EwICDi4W1RyarAXI987_AYzephuwTWn-vgXKk_QWbpuGxft2Gy0-3sb5iooX7nYjEtFU```
+    ```webcal://p53-calendars.icloud.com/published/2/MTczMzg5NzU4MTczMzg5N75E2T9mKOEzU8UfcEp6z_JT_8hK7iLydrZbWwAsN7BYhaXMw069ZaPiM7yMiQ_XXTAC8w1qhGQ77EBZSJ0X9N8```
+    
 
 2. In your calendar program, select the option to subscribe to a calendar, then paste the copied link as the calendar to subscribe to.
     - Google Calendar: `Other Calendars` (sidebar) > `Add by URL`
