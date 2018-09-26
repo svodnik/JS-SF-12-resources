@@ -94,7 +94,7 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
     where `YourTokenGoesHere` is the API token provided by the instructor
 
-15. **Push all your code up to Heroku**
+15. **Push all your code up to Heroku:**
 
     `git push heroku master`
 
@@ -109,3 +109,13 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
     You should have a Node prompt displaying your bot name. 
     
     Press `control` + `C` when you're done, to return to the BASH prompt.
+
+17. **Copy the script.js file from your start files:**
+
+    In Finder, open the start files for today. 
+    
+    In the `hubot-code` folder, copy the `script.js` file.
+    
+    Navigate to the `JSD/myhubot/scripts` folder, then paste the file you copied. 
+
+    You should do all your development work in this `scripts.js` file.
