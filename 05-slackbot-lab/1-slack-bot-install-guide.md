@@ -17,19 +17,19 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
     Then execute the following command to create a new folder named `myhubot`:
 
-     `$ mkdir myhubot`
+     `mkdir myhubot`
 
 4. **Move into that new directory:**
 
-    `$ cd myhubot`
+    `cd myhubot`
 
 5. **Install Hubot and its dependencies (CoffeeScript, Yeoman, and the Hubot generator):**
 
-    `$ npm install -g hubot coffee-script yo generator-hubot`
+    `npm install -g hubot coffee-script yo generator-hubot`
 
 6. **Using Yeoman, generate a Hubot bot:**
 
-    `$ yo hubot --adapter="slack"`
+    `yo hubot --adapter="slack"`
 
     This will prompt you to answer a few questions about your bot:
 
@@ -48,29 +48,34 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
     In Finder, navigate to the folder for your hubot, locate the `hubot-scripts.json` file, then move it to the trash. This file is no longer supported, and its presence could generate errors later on.
 
+9. **Edit the `package.json` file**
+    In your `hubot` folder, open the `package.json` file in your editor.
+
+    Near the bottom of the document, locate the line starting with `"node"` and change the numeric value after it to `"6.9.x"`, then save your changes.
+
     Now we need to push up our bot to Heroku.
 
-9. **Initialize your local repository:**
+10. **Initialize your local repository:**
 
-    `$ git init`
+    `git init`
 
-10. **Add all of your new files:**
+11. **Add all of your new files:**
 
-    `$ git add .`
+    `git add .`
 
-11. **Commit your new files:**
+12. **Commit your new files:**
 
-    `$ git commit -m "Initial Commit"`
+    `git commit -m "Initial Commit"`
 
-12. **Create a new app on Heroku:**
+13. **Create a new app on Heroku:**
 
-    `$ heroku login`
+    `heroku login`
 
     then enter the email and password you used when setting up your Heroku account.
 
     You should see a confirmation that you are logged in, showing your email address.
 
-    `$ heroku create myhubotapp`
+    `heroku create myhubotapp`
 
     where `myhubotapp` is a unique app name; any app name already used by a heroku user will fail with "Name is already taken." 
     
@@ -79,33 +84,23 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
     Note that your app name can be different than the local Bot Name you  
     specified in Step 6 above.
 
-13. **Add the following configs for Slack:**
+14. **Add the following configs for Slack:**
 
-    `$ heroku config:add HEROKU_URL=https://myhubotapp.herokuapp.com`
+    `heroku config:add HEROKU_URL=https://myhubotapp.herokuapp.com`
 
     where `myhubotapp` is the app name you created and used in the previous step
 
-    `$ heroku config:add HUBOT_SLACK_TOKEN=YourTokenGoesHere`
+    `heroku config:add HUBOT_SLACK_TOKEN=YourTokenGoesHere`
 
     where `YourTokenGoesHere` is the API token provided by the instructor
 
-14. **Push all your code up to Heroku**
+15. **Push all your code up to Heroku:**
 
-    `$ git push heroku master`
+    `git push heroku master`
 
-    NOTE: If you get an error message that your build has failed, complete the following:
+     Assuming you do not receive an error, proceed to the next step.
 
-* In your `hubot` folder, open the `package.json` file in your editor.
-
-* Near the bottom of the document, locate the line starting with `"node"` and change the numeric value after it to `"6.9.x"`.
-
-* Save your changes, then at the command line, in your `myhubot` folder, issue the following commands:
-    * `git add .`
-    * `git commit -m "updated node version"`
-    * `git push heroku master`
-* Assuming you do not receive an error, proceed to the next step.
-
-15. **Test your bot locally to make sure it's working:**
+16. **Test your bot locally to make sure it's working:**
 
     `./bin/hubot`
 
@@ -114,3 +109,13 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
     You should have a Node prompt displaying your bot name. 
     
     Press `control` + `C` when you're done, to return to the BASH prompt.
+
+17. **Copy the script.js file from your start files:**
+
+    In Finder, open the start files for today. 
+    
+    In the `hubot-code` folder, copy the `script.js` file.
+    
+    Navigate to the `JSD/myhubot/scripts` folder, then paste the file you copied. 
+
+    You should do all your development work in this `scripts.js` file.
